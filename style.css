@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.header img {
+.header__img {
   width: 100%;
 }
-
-.header .header__link {
+ 
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -41,7 +41,8 @@
     display: flex;
   }
 
-  .todo, .completed {
+  .todo, 
+  .completed {
     margin: 0;
     padding: 0px;
     list-style: none;
@@ -173,11 +174,13 @@
     display: none;
   }
 
-  .edit-mode .todo__input {
+  .edit-mode >
+  .todo__input {
     display: inline-block;
     width: 224px;
   }
 
-  .edit-mode label {
+  .edit-mode >
+  .todo__label {
     display: none;
   }
