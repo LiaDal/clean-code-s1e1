@@ -77,9 +77,9 @@
   }
 
 /* Heading */
-  .add-item_text,
-  .todo_text,
-  .completed_text {
+  .add-item__text,
+  .todo__text,
+  .completed__text {
     color: #333;
     font-weight: 700;
     font-size: 15px;
